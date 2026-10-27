@@ -1,0 +1,12 @@
+field,null,blank,missing,missing_pct,distinct
+text,0,34,34,0.02,139329
+stats,0,0,0,0.0,141247
+date_time,101,0,101,0.07,120710
+report_link,0,0,0,0.0,141261
+city,459,0,459,0.32,28836
+state,9551,0,9551,6.76,298
+country,315,0,315,0.22,440
+shape,6299,0,6299,4.46,39
+duration,7596,0,7596,5.38,14011
+summary,72,0,72,0.05,138549
+posted,0,0,0,0.0,617

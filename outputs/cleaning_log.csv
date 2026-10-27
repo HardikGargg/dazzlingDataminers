@@ -1,0 +1,18 @@
+issue,action,rows
+re-posted submissions,dropped,14
+null-like strings,set to missing,70
+occurred date from date_time fallback,parsed,9
+no occurred date,flagged date_ok = False,366
+year before 1900,flagged year_implausible,20
+imprecise date (year or month only),flagged date_precise = False,11025
+no clock time,flagged time_ok = False,1727
+reported 1 day before occurred (time zone),kept as same-night report,2759
+reported 2+ days before occurred,flagged lag_error,182
+duration parsed,duration_seconds,120402
+duration missing or unparseable,flagged duration_ok = False,20845
+shape missing,mapped to 'unknown',6298
+rare shape labels,merged into 'other',1171
+country missing,mapped to 'unknown',316
+MADAR machine alerts,flagged is_madar,2044
+empty text,flagged text_empty,34
+NUFORC hoax note,flagged nuforc_hoax,1288
